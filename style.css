@@ -1,0 +1,11 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  .Hero {
+    background-image: url('steel-bar-heat-treating-scaled.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+

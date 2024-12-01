@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SteelWorks - Iron & Steel Solutions</title>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Header Section -->
+  <header class="bg-gray-900 text-white shadow-md fixed w-full z-50">
+    <nav class="container mx-auto flex justify-between items-center py-4 px-6" data-aos="fade-down">
+      <h1 class="text-2xl font-bold">SteelWorks</h1>
+      <ul class="flex space-x-6 text-gray-300">
+        <li><a href="#about" class="hover:text-gray-100">About</a></li>
+        <li><a href="#projects" class="hover:text-gray-100">Projects</a></li>
+        <li><a href="#testimonials" class="hover:text-gray-100">Testimonials</a></li>
+        <li><a href="#contact" class="hover:text-gray-100">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="Hero h-screen flex items-center justify-center bg-gray-800 text-white">
+    <div class="text-center" data-aos="zoom-in">
+      <h1 class="text-5xl font-bold mb-4">Innovating Iron & Steel Solutions</h1>
+      <p class="text-lg mb-6">Your trusted partner in metal manufacturing and supply chain.</p>
+      <a href="#projects" class="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700" data-aos="fade-up" data-aos-delay="200">View Our Projects</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-gray-50">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold text-gray-800 mb-4" data-aos="fade-down">About Us</h2>
+      <p class="text-gray-600 max-w-2xl mx-auto mb-6" data-aos="fade-up">
+        At SteelWorks, we pride ourselves on delivering top-quality iron and steel solutions tailored to our clients' needs. With decades of experience, we combine innovation and expertise to meet the highest industry standards.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+        <div data-aos="flip-left" class="bg-white shadow-lg rounded-lg p-6">
+          <h3 class="text-2xl font-bold text-gray-800 mb-2">Our Mission</h3>
+          <p class="text-gray-600">To lead the industry by providing sustainable and innovative steel solutions worldwide.</p>
+        </div>
+        <div data-aos="flip-up" class="bg-white shadow-lg rounded-lg p-6">
+          <h3 class="text-2xl font-bold text-gray-800 mb-2">Our Vision</h3>
+          <p class="text-gray-600">To be recognized globally as the most reliable steel provider.</p>
+        </div>
+        <div data-aos="flip-right" class="bg-white shadow-lg rounded-lg p-6">
+          <h3 class="text-2xl font-bold text-gray-800 mb-2">Our Values</h3>
+          <p class="text-gray-600">Commitment to quality, customer satisfaction, and innovation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 bg-gray-50">
+    <div class="container mx-auto text-center mb-8">
+      <h2 class="text-4xl font-bold text-gray-800 mb-4" data-aos="fade-down">Our Projects</h2>
+      <p class="text-gray-600" data-aos="fade-up">Explore some of the remarkable projects we've delivered to our clients.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 container mx-auto">
+      <div class="bg-white shadow-lg rounded-lg p-6" data-aos="zoom-in-up">
+        <img src="https://via.placeholder.com/300x200" alt="Project 1" class="rounded-t-lg mb-4">
+        <h3 class="text-xl font-semibold text-gray-800">Project One</h3>
+        <p class="text-gray-700 mt-2">A high-rise building constructed using our steel solutions.</p>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg p-6" data-aos="fade-left">
+        <img src="https://via.placeholder.com/300x200" alt="Project 2" class="rounded-t-lg mb-4">
+        <h3 class="text-xl font-semibold text-gray-800">Project Two</h3>
+        <p class="text-gray-700 mt-2">Industrial plant framework with durable steel beams.</p>
+      </div>
+      <div class="bg-white shadow-lg rounded-lg p-6" data-aos="fade-right">
+        <img src="https://via.placeholder.com/300x200" alt="Project 3" class="rounded-t-lg mb-4">
+        <h3 class="text-xl font-semibold text-gray-800">Project Three</h3>
+        <p class="text-gray-700 mt-2">A bridge designed with precision-engineered steel.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-16 bg-gray-800 text-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4" data-aos="fade-down">What Our Clients Say</h2>
+      <p class="text-gray-300 max-w-xl mx-auto mb-6" data-aos="fade-up">Here are some testimonials from our valued clients.</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-gray-700 p-6 rounded-lg shadow-lg" data-aos="flip-left">
+          <p class="text-gray-300 italic">"SteelWorks provided exceptional service and high-quality materials for our project. Highly recommended!"</p>
+          <h4 class="text-lg font-semibold mt-4">- John Doe, Architect</h4>
+        </div>
+        <div class="bg-gray-700 p-6 rounded-lg shadow-lg" data-aos="flip-right">
+          <p class="text-gray-300 italic">"The team was professional and delivered ahead of schedule. Outstanding work!"</p>
+          <h4 class="text-lg font-semibold mt-4">- Jane Smith, Construction Manager</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-16 bg-gray-900 text-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4" data-aos="fade-down">Contact Us</h2>
+      <p class="text-gray-300 mb-6" data-aos="fade-up">We'd love to hear from you! Reach out to us for any inquiries.</p>
+      <form id="contact-form" class="grid grid-cols-1 md:grid-cols-2 gap-6 w-3/4 mx-auto" data-aos="zoom-in">
+        <input type="text" placeholder="Your Name" class="p-4 rounded-lg bg-gray-800 text-white" required>
+        <input type="email" placeholder="Your Email" class="p-4 rounded-lg bg-gray-800 text-white" required>
+        <textarea placeholder="Your Message" class="col-span-2 p-4 rounded-lg bg-gray-800 text-white h-32" required></textarea>
+        <button type="submit" class="col-span-2 px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
+  
+  
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 mt-10">
+    <div class="container mx-auto text-center" data-aos="fade-up">
+      <p>&copy; 2024 SteelWorks. All rights reserved.</p>
+    </div>
+    <div class="flex justify-center space-x-6 mt-4">
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="transition transform hover:scale-110">
+        <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook" class="icon w-8 h-8">
+      </a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="transition transform hover:scale-110">
+        <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram" class="icon w-8 h-8">
+      </a>
+      <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="transition transform hover:scale-110">
+        <img src="https://img.icons8.com/color/48/000000/twitter.png" alt="Twitter" class="icon w-8 h-8">
+      </a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" class="transition transform hover:scale-110">
+        <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" class="icon w-8 h-8">
+      </a>
+    </div>
+  </footer>
+  
+
+   <!-- JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+   <script src="app.js"></script>
+</body>
+</html>
+
